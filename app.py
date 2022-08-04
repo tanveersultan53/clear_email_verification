@@ -30,7 +30,7 @@ proxies = {
 }
 
 auth = HTTPProxyAuth("asuedxxn", "crl0h8hc789v")
-@app.route('/',methods=['POST'])
+@app.route('/clear_email',methods=['POST'])
 def home():
     try:
         request_data = request.get_json()
